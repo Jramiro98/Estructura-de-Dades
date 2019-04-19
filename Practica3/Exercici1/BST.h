@@ -87,7 +87,7 @@ BST<Type>::~BST(){
     if(!isEmpty()){
         std::cout<<"Destruïnt arbre binari"<<std::endl;
         postDelete(pRoot);
-        //pRoot=nullptr;
+        pRoot=nullptr;
         //delete(pRoot);
     }
     std::cout<<"Arbre binari destruit"<<std::endl;   
